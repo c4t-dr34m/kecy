@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="10dip"
+	android:orientation="horizontal" >
+	<RelativeLayout
+		android:layout_width="0dip"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="center" >
+		<ImageView android:id="@+id/image_left"
+			android:layout_width="fill_parent"
+			android:layout_height="100dip"
+			android:layout_margin="4dip"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:scaleType="centerCrop" />
+		<TextView android:id="@+id/image_left_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:layout_gravity="right"
+			android:maxWidth="120dip"
+			android:paddingLeft="5dip"
+			android:paddingRight="9dip"
+			android:lines="1"
+			android:singleLine="true"
+			android:scrollHorizontally="true"
+			android:ellipsize="marquee"
+			android:textSize="14dip"
+			android:textColor="?image_title_text"
+			android:background="?image_title" />
+		</RelativeLayout>
+	<RelativeLayout
+		android:layout_width="0dip"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_gravity="center" >
+		<ImageView android:id="@+id/image_right"
+			android:layout_width="fill_parent"
+			android:layout_height="100dip"
+			android:layout_margin="4dip"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:scaleType="centerCrop" />
+		<TextView android:id="@+id/image_right_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+			android:layout_gravity="right"
+			android:maxWidth="120dip"
+			android:paddingLeft="5dip"
+			android:paddingRight="9dip"
+			android:lines="1"
+			android:singleLine="true"
+			android:scrollHorizontally="true"
+			android:ellipsize="marquee"
+			android:textSize="14dip"
+			android:textColor="?image_title_text"
+			android:background="?image_title" />
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="kecy" parent="android:Theme.NoTitleBar">
+		<item name="background">@color/background</item>
+		<item name="image_title">@color/image_title</item>
+		<item name="image_title_text">@color/image_title_text</item>
+	</style>
+</resources>

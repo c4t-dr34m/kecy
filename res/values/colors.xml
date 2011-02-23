@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="just_white">#FFFFFFFF</color>
+    <color name="background">#FF000000</color>
+    <color name="image_title">#99000000</color>
+    <color name="image_title_text">#FFFFFFFF</color>
+</resources>
